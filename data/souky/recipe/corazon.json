@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+      "A": [
+        "minecraft:amethyst_block"
+      ],
+      "R": [
+        "minecraft:redstone_block"
+      ],
+      "D": [
+        "minecraft:diamond_block"
+      ],
+      "L": [
+        "minecraft:lapis_block"
+      ],
+      "M": [
+        "minecraft:enchanted_golden_apple"
+      ],
+      "E": [
+        "minecraft:emerald_block"
+      ],
+      "G": [
+        "minecraft:gold_block"
+      ],
+      "N": [
+        "minecraft:netherite_block"
+      ],
+      "I": [
+        "minecraft:iron_block"
+      ]
+    },
+    "pattern": [
+      "ARD",
+      "LME",
+      "GNI"
+    ],
+    "result": {
+      "id": "minecraft:carrot_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:water_movement_efficiency",
+              "id": "2",
+              "amount": 0,
+              "operation": "add_value"
+            }
+          ]
+        },
+        "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FF0DF7\",\"text\":\"Corazon Etereo\"}",
+        "minecraft:repair_cost": 99999,
+        "minecraft:use_remainder": {
+          "id": "minecraft:kelp",
+          "count": 1
+        },
+        "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+        
+        "minecraft:unbreakable": {
+          "show_in_tooltip": true
+        }
+      }
+    },
+    "show_notification": false
+  }
+  

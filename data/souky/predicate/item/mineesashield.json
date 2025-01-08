@@ -1,0 +1,69 @@
+{
+  "condition": "minecraft:entity_properties",
+  "terms": [],
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:shield",
+        "components": {
+          "minecraft:attribute_modifiers": {
+            "modifiers": [
+              {
+                "type": "minecraft:water_movement_efficiency",
+                "id": "4",
+                "amount": 0,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "attack_speed",
+                "amount": 0.4,
+                "operation": "add_value",
+                "slot": "offhand"
+              },
+              {
+                "type": "minecraft:attack_damage",
+                "id": "attack_damage",
+                "amount": 0.2,
+                "operation": "add_value",
+                "slot": "offhand"
+              }
+            ]
+          },
+          "minecraft:damage_resistant": {
+            "types": "#minecraft:is_fire"
+          },
+          "minecraft:death_protection": {
+            "death_effects": [
+              {
+                "type": "minecraft:clear_all_effects"
+              },
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 2,
+                    "duration": 200
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:play_sound",
+                "sound": "item.trident.thunder"
+              }
+            ]
+          },
+          "minecraft:equippable": {
+            "slot": "offhand",
+            "equip_sound": "block.anvil.place"
+          },
+          "minecraft:rarity": "epic",
+          "minecraft:repair_cost": 99999
+        }
+      }
+    }
+  }
+}

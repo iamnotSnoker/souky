@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:entity_properties",
+    "terms": [],
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "equipment": {
+        "mainhand": {
+          "items": "minecraft:carrot_on_a_stick",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "type": "minecraft:water_movement_efficiency",
+                  "id": "3",
+                  "amount": 0,
+                  "operation": "add_value"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }

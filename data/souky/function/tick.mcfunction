@@ -1,0 +1,1 @@
+function souky:item/itemtick

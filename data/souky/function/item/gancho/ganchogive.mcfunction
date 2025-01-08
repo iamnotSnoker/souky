@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick[attribute_modifiers=[{id:"1",type:"water_movement_efficiency",amount:0,operation:"add_value"}],custom_name='{"bold":true,"color":"#FF0DF7","text":"Gancho"}',repair_cost=99999,use_remainder={id:"minecraft:kelp",count:1},damage_resistant={types:"#minecraft:is_fire"},unbreakable={show_in_tooltip:true}] 1
