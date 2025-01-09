@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "shooter": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": "minecraft:wind_charge",
+          "components": {
+            "minecraft:rarity": "epic"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shooter"
+    ]
+  ],
+  "rewards": {
+    "function": "souky:testmacro"
+  }
+}
