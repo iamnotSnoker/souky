@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "windcharge_team_ulti_hurts_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damager": {
+          "type": "minecraft:wind_charge",
+          "team": "ulti"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "souky:test"
+  }
+}
